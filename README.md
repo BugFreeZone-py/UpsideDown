@@ -1,4 +1,12 @@
 # UpsideDown Cipher
+
+[![License](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![Python](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/)
+[![Version](https://img.shields.io/badge/version-0.42.1-blue)](https://github.com/BugFreeZone-py/UpsideDown)
+[![Stars](https://img.shields.io/github/stars/BugFreeZone-py/UpsideDown?style=social)](https://github.com/BugFreeZone-py/UpsideDown)
+[![Last commit](https://img.shields.io/github/last-commit/BugFreeZone-py/UpsideDown)](https://github.com/BugFreeZone-py/UpsideDown)
+[![GitHub release](https://img.shields.io/github/v/release/BugFreeZone-py/UpsideDown)](https://github.com/BugFreeZone-py/UpsideDown/releases)
+
 **Turn your data upside down! 🔄**  
 UpsideDown is an experimental encryption algorithm that flips, shuffles, and XORs your data using a unique approach. It's not just encryption — it's a journey to the parallel dimension of your bytes.
 ## 🌟 Features
