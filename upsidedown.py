@@ -7,14 +7,14 @@ def _simple_checksum(data: bytes) -> int:
     return sum(data)
 
 def shuffle_bytes(data: bytes, key: bytes) -> bytes:
-    salt = bytes(_simple_checksum(data))
+    salt = bytes([_simple_checksum(data) & 0xFF])
     ba = bytearray(data)
     random.seed(key + salt)
     random.shuffle(ba)
     return bytes(ba)
 
 def unshuffle_bytes(shuffled_bytes: bytes, key: bytes) -> bytes:
-    salt = bytes(_simple_checksum(shuffled_bytes))
+    salt = bytes([_simple_checksum(shuffled_bytes) & 0xFF])
     ba = bytearray(shuffled_bytes)
     length = len(ba)
 
